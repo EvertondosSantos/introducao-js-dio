@@ -80,7 +80,7 @@ function funcaoclicou(){
 
 function mP(){
     document.getElementById("mensagem").innerHTML = "<br>Clicou no botão que coloca uma mensagem no p usando o id</br>";
-    console.log(document.getElementById("mensagem"));
+    console.log(document.getElementById("mensagem")); //Penas um exemplo para mostar quem é o ID
 }
 
 function redirecionamentoJS(){
@@ -92,4 +92,7 @@ function mousePassou(){
 }
 function passeNovamente(){
     document.getElementById("mousemove").innerHTML = "-----PASSE O MOUSE NOVAMENTE-----";
+}
+function umafuncao(qualquer){  //Sem usa o getElement By ID
+    qualquer.innerHTML = "<p>Textando dessa forma usando o THIS</p>";
 }

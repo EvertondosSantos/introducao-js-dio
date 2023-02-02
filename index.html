@@ -21,16 +21,28 @@
     <p>O script é "lincado" no head e execulta o arquivo "main.js"</p>
 
     <p>Usando o BUTTON e o ONCLICK</p>
+    
     <button type="button" onclick="funcaoclicou()">Clique Aqui!</button>
 
     <p>Com o ONCLICK execultamos a função e com o INNERHTML inserimos o valor na TAG</p>
+
     <button type="button" onclick="mP()">Botão mensagem na Tag p</button>
+
     <p id="mensagem" onclick="redirecionamentoJS()"></p> <!--Esse Paragrafo vai receber a mensagem atravez do id e o innerHTML / E ao clicar vai usar JS para ir a outra página -->
+
     <p>Ao clicar acima vai usar JS para ir a outra página</p>
+
     <p>Abaixo o JS vai mudar o texto</p>
+
     <p id="mousemove" onmouseover="mousePassou()" onmouseout="passeNovamente()" >PASSE O MOUSE AQUI</p>
 
-    <!-- PAREI EM 13:20 !!!!!!!!!!!!!!!!!! -->
+    <p onmouseover="umafuncao(this)">Novo teste</p>
+    <!-- Posso ter a mesma função em varios elementos usando o THIS -->
+
+    <p> load() a função que é chamda ao carregar o arquivo / página</p>
+
+
+    <!-- PAREI EM 15:20 !!!!!!!!!!!!!!!!!! -->
 
 </body>
 </html>
