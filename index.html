@@ -7,7 +7,7 @@
     <title>Minha página</title>
     <script type="text/javascript" src="main.js"></script>
 </head>
-<body>
+<body onload="carregado()">
     <!-- JavaScript dentro do BODY -->
     <!-- <script>
         alert("Meu primeiro js");
@@ -41,8 +41,12 @@
 
     <p> load() a função que é chamda ao carregar o arquivo / página</p>
 
+    <select onchange="funcaoChange(this)">
+        <option value="1">Valor 1</option>
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+    </select>
 
-    <!-- PAREI EM 15:20 !!!!!!!!!!!!!!!!!! -->
 
 </body>
 </html>

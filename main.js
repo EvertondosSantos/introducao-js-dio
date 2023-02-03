@@ -96,3 +96,11 @@ function passeNovamente(){
 function umafuncao(qualquer){  //Sem usa o getElement By ID
     qualquer.innerHTML = "<p>Textando dessa forma usando o THIS</p>";
 }
+function carregado() {
+    alert('Página CARREGADA!!!');
+}
+function funcaoChange(elemento){
+    alert(elemento.value);
+    console.log('Elemento da Função Change:');
+    console.log(elemento);
+}
